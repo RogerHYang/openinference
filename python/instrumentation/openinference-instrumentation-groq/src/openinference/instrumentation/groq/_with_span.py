@@ -19,6 +19,7 @@ class _WithSpan:
     def __init__(
         self,
         span: trace_api.Span,
+            
         context_attributes: Attributes = None,
         extra_attributes: Attributes = None,
     ) -> None:

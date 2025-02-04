@@ -16,6 +16,7 @@ class SpanAttributes:
     """
 
     EMBEDDING_EMBEDDINGS = "embedding.embeddings"
+    
     """
     A list of objects containing embedding data, including the vector and represented piece of text.
     """

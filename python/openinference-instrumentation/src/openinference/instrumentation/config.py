@@ -192,6 +192,7 @@ class TraceConfig:
             "default_value": DEFAULT_HIDE_LLM_INVOCATION_PARAMETERS,
         },
     )
+    
     hide_inputs: Optional[bool] = field(
         default=None,
         metadata={
