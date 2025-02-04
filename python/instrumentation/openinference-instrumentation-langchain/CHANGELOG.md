@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.1.31](https://github.com/RogerHYang/openinference/compare/python-openinference-instrumentation-langchain-v0.1.30...python-openinference-instrumentation-langchain-v0.1.31) (2025-02-04)
+
+
+### Features
+
+* Add `get_chain_root_span` utility for langchain instrumentation ([#1054](https://github.com/RogerHYang/openinference/issues/1054)) ([4337aa1](https://github.com/RogerHYang/openinference/commit/4337aa1674476958bdfcdd3725b0145c37268425))
+* get messages on chat model start ([#514](https://github.com/RogerHYang/openinference/issues/514)) ([dd8d253](https://github.com/RogerHYang/openinference/commit/dd8d25321741dafee2a8dd5f4abe6ddd04ab0119))
+* helper function to `get_current_span()` for langchain ([#578](https://github.com/RogerHYang/openinference/issues/578)) ([b4d78b0](https://github.com/RogerHYang/openinference/commit/b4d78b0c2e48558c4e55ba3345badef22034f693))
+* Instrumentation reads session id from metadata ([#446](https://github.com/RogerHYang/openinference/issues/446)) ([5490f68](https://github.com/RogerHYang/openinference/commit/5490f6872415c1e9a874f0a7a4960a93e68afec8))
+* **langchain:** capture image in chat message ([#645](https://github.com/RogerHYang/openinference/issues/645)) ([32fdd6b](https://github.com/RogerHYang/openinference/commit/32fdd6bea1e40d81ae7c4ebada9fbdb3fc860701))
+* **langchain:** Enable configuration using common instrumentation pkg ([#685](https://github.com/RogerHYang/openinference/issues/685)) ([a6feda3](https://github.com/RogerHYang/openinference/commit/a6feda3683365de59b3d225a892749aedce16ff2))
+* support langchain 0.3 ([#1045](https://github.com/RogerHYang/openinference/issues/1045)) ([ff43e9d](https://github.com/RogerHYang/openinference/commit/ff43e9ddc0a5f683f80d09139247ad194d6c29af))
+
+
+### Bug Fixes
+
+* add token counts for langchain streaming ([#669](https://github.com/RogerHYang/openinference/issues/669)) ([06975ed](https://github.com/RogerHYang/openinference/commit/06975eda7734477e34610bc28c184aaf8992fb4f))
+* Fix missing token counts when using VertexAI with Langchain Instrumentor ([#1234](https://github.com/RogerHYang/openinference/issues/1234)) ([e387573](https://github.com/RogerHYang/openinference/commit/e387573a031bdb40a78c2fe92713f132348865f7))
+* handle ToolMessage in LangChain instrumentor ([#520](https://github.com/RogerHYang/openinference/issues/520)) ([2f42080](https://github.com/RogerHYang/openinference/commit/2f42080c0d13f51e6abf6e281a3fd7167a07d625))
+* improve langchain support for non-ascii characters ([#476](https://github.com/RogerHYang/openinference/issues/476)) ([c1af974](https://github.com/RogerHYang/openinference/commit/c1af974a56b6364455f80c283f2401fed075224a))
+* include token counts from langchain ChatAnthropic model ([#625](https://github.com/RogerHYang/openinference/issues/625)) ([131c4a1](https://github.com/RogerHYang/openinference/commit/131c4a13927bfbab65814b83a2e6065e5341d133))
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/RogerHYang/openinference/issues/1012)) ([3236d27](https://github.com/RogerHYang/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+* **langchain:** message parsing for langgraph ([#534](https://github.com/RogerHYang/openinference/issues/534)) ([ccf0683](https://github.com/RogerHYang/openinference/commit/ccf06837cb054c15bb7bcdccd00daa47911dfcf0))
+* **langchain:** missing partial variables for chat prompt template ([#593](https://github.com/RogerHYang/openinference/issues/593)) ([1cf1889](https://github.com/RogerHYang/openinference/commit/1cf18892c636cb44428e98583d7c8f00be81dc17))
+* make tracer a singleton instance ([#517](https://github.com/RogerHYang/openinference/issues/517)) ([202e584](https://github.com/RogerHYang/openinference/commit/202e5842062ec1ca49a802b7a5bf4b80727df3a7))
+* Rename base tracer and masked span ([#693](https://github.com/RogerHYang/openinference/issues/693)) ([861ea4b](https://github.com/RogerHYang/openinference/commit/861ea4ba45cf02a1d0519a7cd2c5c6ca5d74115b))
+* tests for langchain latest @ 2.1 ([#511](https://github.com/RogerHYang/openinference/issues/511)) ([bb99487](https://github.com/RogerHYang/openinference/commit/bb99487333a4e57799d007aed283e5729149ed33))
+
+
+### Documentation
+
+* minimum working example of a custom retriever ([#510](https://github.com/RogerHYang/openinference/issues/510)) ([aa8f655](https://github.com/RogerHYang/openinference/commit/aa8f655c57ba0c7ad93936110d8f275e447309e5))
+* TraceConfig and context attributes ([#793](https://github.com/RogerHYang/openinference/issues/793)) ([d3808c4](https://github.com/RogerHYang/openinference/commit/d3808c4bea3f6a4c72d3a7ea09b54e78072be6fd))
+
 ## [0.1.30](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-langchain-v0.1.29...python-openinference-instrumentation-langchain-v0.1.30) (2025-01-28)
 
 
