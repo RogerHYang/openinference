@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.14](https://github.com/RogerHYang/openinference/compare/python-openinference-instrumentation-bedrock-v0.1.13...python-openinference-instrumentation-bedrock-v0.1.14) (2025-02-04)
+
+
+### Features
+
+* add support for meta vendor in openinference-instrumentation-bedrock ([#448](https://github.com/RogerHYang/openinference/issues/448)) ([958c385](https://github.com/RogerHYang/openinference/commit/958c385b1d8de70698bc2e8368cef36a8e5acf8f))
+* **bedrock:** add converse api support for bedrock ([#585](https://github.com/RogerHYang/openinference/issues/585)) ([b41cab7](https://github.com/RogerHYang/openinference/commit/b41cab7ebc1abd730cf26f8e9d7cafce39b59054))
+* Capture images tracing converse API ([#753](https://github.com/RogerHYang/openinference/issues/753)) ([2a2fe15](https://github.com/RogerHYang/openinference/commit/2a2fe15f2b48fe67b14974137c105606072394f3))
+* Enable config propagation ([#741](https://github.com/RogerHYang/openinference/issues/741)) ([16cdc6b](https://github.com/RogerHYang/openinference/commit/16cdc6b71fb14728a3eca7db27a55b68187cb4aa))
+* support bedrock anthropic messages via invoke_model_with_stream_response ([#1240](https://github.com/RogerHYang/openinference/issues/1240)) ([6047451](https://github.com/RogerHYang/openinference/commit/6047451290578402e3d9c6544067c7845c8ec134))
+
+
+### Bug Fixes
+
+* **bedrock:** ensure bedrock instrumentation does not break runtime for BedrockEmbeddings model from langchain ([#975](https://github.com/RogerHYang/openinference/issues/975)) ([fbb78cd](https://github.com/RogerHYang/openinference/commit/fbb78cdf13cc895add911575dc7fb400afafff7d))
+* improve bedrock support for non-ascii characters ([#475](https://github.com/RogerHYang/openinference/issues/475)) ([e6d1f0a](https://github.com/RogerHYang/openinference/commit/e6d1f0acca9ea5d5f00fa10a809a771deb3ff605))
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/RogerHYang/openinference/issues/1012)) ([3236d27](https://github.com/RogerHYang/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+
+
+### Documentation
+
+* TraceConfig and context attributes ([#793](https://github.com/RogerHYang/openinference/issues/793)) ([d3808c4](https://github.com/RogerHYang/openinference/commit/d3808c4bea3f6a4c72d3a7ea09b54e78072be6fd))
+
 ## [0.1.13](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-bedrock-v0.1.12...python-openinference-instrumentation-bedrock-v0.1.13) (2025-01-29)
 
 
