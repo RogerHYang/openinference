@@ -1,5 +1,48 @@
 # Changelog
 
+## [4.0.0](https://github.com/RogerHYang/openinference/compare/python-openinference-instrumentation-llama-index-v3.1.3...python-openinference-instrumentation-llama-index-v4.0.0) (2025-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* support pydanticV2 for llama-index 0.11 ([#971](https://github.com/RogerHYang/openinference/issues/971))
+* support new `instrumentation` paradigm ([#507](https://github.com/RogerHYang/openinference/issues/507))
+
+### Features
+
+* Add config handling to instrumentation ([#653](https://github.com/RogerHYang/openinference/issues/653)) ([7d60bb1](https://github.com/RogerHYang/openinference/commit/7d60bb155291e576ab25c583f387213ac47979c8))
+* add get_current_span helper function for llama-index ([#1165](https://github.com/RogerHYang/openinference/issues/1165)) ([b46931c](https://github.com/RogerHYang/openinference/commit/b46931c7cec73f73873a3ae15003f3c6c52173e1))
+* Add vision instrumentation ([#575](https://github.com/RogerHYang/openinference/issues/575)) ([e3d83a5](https://github.com/RogerHYang/openinference/commit/e3d83a5cdcbcf394c44b2456f99dcf9d4193de98))
+* Move attribute censorship based on config to common instrumentation ([#679](https://github.com/RogerHYang/openinference/issues/679)) ([04f885a](https://github.com/RogerHYang/openinference/commit/04f885a5934af6fe885e7498332785da110cb500))
+* support llama-index new instrumentation paradigm under feature flag `use_experimental_instrumentation` ([#462](https://github.com/RogerHYang/openinference/issues/462)) ([e254928](https://github.com/RogerHYang/openinference/commit/e254928bdf08a784df99d2e0f133be060be905bd))
+* support new `instrumentation` paradigm ([#507](https://github.com/RogerHYang/openinference/issues/507)) ([41438f0](https://github.com/RogerHYang/openinference/commit/41438f022ef2a34eda26d1f8c9b0a85c3d9eb0d6))
+* support pydanticV2 for llama-index 0.11 ([#971](https://github.com/RogerHYang/openinference/issues/971)) ([ba203b8](https://github.com/RogerHYang/openinference/commit/ba203b8bb16c73113c273516d0a4bf7b0d553bf1))
+
+
+### Bug Fixes
+
+* `GetResponseEndEvent` payload removal ([#515](https://github.com/RogerHYang/openinference/issues/515)) ([e1e22fd](https://github.com/RogerHYang/openinference/commit/e1e22fd2583184df493ab5900e2089f5ff3c037a))
+* allow `raw` to be dict or object for llama-index v0.10.58 ([#628](https://github.com/RogerHYang/openinference/issues/628)) ([21732ba](https://github.com/RogerHYang/openinference/commit/21732ba74d3b1b87bbe833278ea72b8f2d16ad5c))
+* Don't check length when converting ToolMetadata to OpenAI format ([#1004](https://github.com/RogerHYang/openinference/issues/1004)) ([47e9c77](https://github.com/RogerHYang/openinference/commit/47e9c779c9ccc464faa30c2ad3637028cfe6cc80))
+* further llama-index support for non-ascii characters ([#487](https://github.com/RogerHYang/openinference/issues/487)) ([e28bfc7](https://github.com/RogerHYang/openinference/commit/e28bfc75ccbd3c79d6c69a5b180cdfcefb6b2342))
+* get_current_span should return None when llama-index is not instrumented ([#1169](https://github.com/RogerHYang/openinference/issues/1169)) ([12d64bc](https://github.com/RogerHYang/openinference/commit/12d64bc489bc1530458f10e815f771ac8a42fd02))
+* handle multiple embedding events for llama-index ([#1166](https://github.com/RogerHYang/openinference/issues/1166)) ([0cef233](https://github.com/RogerHYang/openinference/commit/0cef233aa3ad60a17bbc28e4c80d1d1bb859f360))
+* ignore `WorkflowDone` exception ([#769](https://github.com/RogerHYang/openinference/issues/769)) ([4fb34a4](https://github.com/RogerHYang/openinference/commit/4fb34a4b5668bb9e14247db10ac734645bcefa8e))
+* improve llama-index support for non-ascii characters ([#477](https://github.com/RogerHYang/openinference/issues/477)) ([70665cb](https://github.com/RogerHYang/openinference/commit/70665cb9febe13a3f795ee498eb06481f0945a73))
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/RogerHYang/openinference/issues/1012)) ([3236d27](https://github.com/RogerHYang/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+* **llama-index:** Adjust newspan args in BaseHandler ([#773](https://github.com/RogerHYang/openinference/issues/773)) ([ab216d1](https://github.com/RogerHYang/openinference/commit/ab216d1fe4cf6ba8cf5461a98c4fc65be6a762de))
+* **llama-index:** capture tool calls from anthropic chat response ([#1177](https://github.com/RogerHYang/openinference/issues/1177)) ([e1ba6a5](https://github.com/RogerHYang/openinference/commit/e1ba6a5dcfc7f6b43cbe40d62e7bff55d45a3f12))
+* **llama-index:** coerce token counts to be integers ([#1183](https://github.com/RogerHYang/openinference/issues/1183)) ([3af6ca6](https://github.com/RogerHYang/openinference/commit/3af6ca626c8f37c931eb51b846b0b3d24afdb615))
+* **llama-index:** ensure llamaindex response models are serializable ([#997](https://github.com/RogerHYang/openinference/issues/997)) ([c1cb203](https://github.com/RogerHYang/openinference/commit/c1cb203f1230d9aa3557736deb7b7f6fe310acca))
+* **llama-index:** extract token counts for groq when streaming ([#1174](https://github.com/RogerHYang/openinference/issues/1174)) ([0aafe9c](https://github.com/RogerHYang/openinference/commit/0aafe9c78a4455ab2612a34a5c648e1362c338cc))
+* remove attaching and detaching of opentelemetry contexts ([#1112](https://github.com/RogerHYang/openinference/issues/1112)) ([0f16ffb](https://github.com/RogerHYang/openinference/commit/0f16ffbebb00bb80345fafe03919bb3a5b17d2ae))
+* Rename base tracer and masked span ([#693](https://github.com/RogerHYang/openinference/issues/693)) ([861ea4b](https://github.com/RogerHYang/openinference/commit/861ea4ba45cf02a1d0519a7cd2c5c6ca5d74115b))
+
+
+### Documentation
+
+* TraceConfig and context attributes ([#793](https://github.com/RogerHYang/openinference/issues/793)) ([d3808c4](https://github.com/RogerHYang/openinference/commit/d3808c4bea3f6a4c72d3a7ea09b54e78072be6fd))
+
 ## [3.1.3](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-llama-index-v3.1.2...python-openinference-instrumentation-llama-index-v3.1.3) (2025-01-09)
 
 
