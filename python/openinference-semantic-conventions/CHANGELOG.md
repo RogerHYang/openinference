@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.13](https://github.com/RogerHYang/openinference/compare/python-openinference-semantic-conventions-v0.1.12...python-openinference-semantic-conventions-v0.1.13) (2025-02-04)
+
+
+### Features
+
+* add evaluator span kind to semantic conventions ([#554](https://github.com/RogerHYang/openinference/issues/554)) ([7db37ff](https://github.com/RogerHYang/openinference/commit/7db37ff0ccd588086e9e49b00f78b207444b2119))
+* Add prompt-related semantic conventions ([#1244](https://github.com/RogerHYang/openinference/issues/1244)) ([4f2f842](https://github.com/RogerHYang/openinference/commit/4f2f842f3c23f3269ea902054b0c9d9d23928285))
+* add tool call id ([#1085](https://github.com/RogerHYang/openinference/issues/1085)) ([4813de5](https://github.com/RogerHYang/openinference/commit/4813de5e8f9e7a22e27e6c20353a529a7fd640b6))
+* Add vision semantic conventions messages ([#535](https://github.com/RogerHYang/openinference/issues/535)) ([670b8c4](https://github.com/RogerHYang/openinference/commit/670b8c41a4699a25b676f56cb83c5f355fc62a9e))
+* Added tools attribute ([#904](https://github.com/RogerHYang/openinference/issues/904)) ([f1eb980](https://github.com/RogerHYang/openinference/commit/f1eb980a4a91d832c80252b254bf94a273c79031))
+* **semcov:** audio conventions ([#1153](https://github.com/RogerHYang/openinference/issues/1153)) ([1188c6d](https://github.com/RogerHYang/openinference/commit/1188c6d3363a388f3eacf35c8a8669084fdefd5b))
+* **semcov:** guardrail span kind for python ([#548](https://github.com/RogerHYang/openinference/issues/548)) ([09e767e](https://github.com/RogerHYang/openinference/commit/09e767e2e2f48480863dc0f87ae664222dee625f))
+* **semcov:** llm system and llm provicer conventions ([#1071](https://github.com/RogerHYang/openinference/issues/1071)) ([d200d85](https://github.com/RogerHYang/openinference/commit/d200d8509c28407c6b68426b579fd8a547f13579))
+
 ## [0.1.12](https://github.com/Arize-ai/openinference/compare/python-openinference-semantic-conventions-v0.1.11...python-openinference-semantic-conventions-v0.1.12) (2024-10-30)
 
 
