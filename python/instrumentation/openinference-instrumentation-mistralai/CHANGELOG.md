@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.0.0](https://github.com/RogerHYang/openinference/compare/python-openinference-instrumentation-mistralai-v1.1.0...python-openinference-instrumentation-mistralai-v2.0.0) (2025-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **mistralai:** support v1 ([#947](https://github.com/RogerHYang/openinference/issues/947))
+
+### Features
+
+* Enable config propagation ([#741](https://github.com/RogerHYang/openinference/issues/741)) ([16cdc6b](https://github.com/RogerHYang/openinference/commit/16cdc6b71fb14728a3eca7db27a55b68187cb4aa))
+* **mistral:** add agent support ([#1043](https://github.com/RogerHYang/openinference/issues/1043)) ([d1d6b2f](https://github.com/RogerHYang/openinference/commit/d1d6b2fea6af8352cd5b4b907c0c8622302bd450))
+* **mistralai:** support v1 ([#947](https://github.com/RogerHYang/openinference/issues/947)) ([2cb2bf9](https://github.com/RogerHYang/openinference/commit/2cb2bf9a092b7fff9169c08973babbbb473c6ea4))
+
+
+### Bug Fixes
+
+* improve mistral support for non-ascii characters ([#479](https://github.com/RogerHYang/openinference/issues/479)) ([14b09a5](https://github.com/RogerHYang/openinference/commit/14b09a5335e7e057312d1d417b5b5ac7e45fd091))
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/RogerHYang/openinference/issues/1012)) ([3236d27](https://github.com/RogerHYang/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+* remove unnecessary `MistralClient` instantiation ([#508](https://github.com/RogerHYang/openinference/issues/508)) ([2cb1086](https://github.com/RogerHYang/openinference/commit/2cb108620ec48b119e4aca959207e4f029a6eaf2))
+
+
+### Documentation
+
+* TraceConfig and context attributes ([#793](https://github.com/RogerHYang/openinference/issues/793)) ([d3808c4](https://github.com/RogerHYang/openinference/commit/d3808c4bea3f6a4c72d3a7ea09b54e78072be6fd))
+
 ## [1.1.0](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-mistralai-v1.0.0...python-openinference-instrumentation-mistralai-v1.1.0) (2024-10-02)
 
 
