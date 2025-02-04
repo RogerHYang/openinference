@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.1.16](https://github.com/RogerHYang/openinference/compare/python-openinference-instrumentation-dspy-v0.1.15...python-openinference-instrumentation-dspy-v0.1.16) (2025-02-04)
+
+
+### Features
+
+* **dspy:** add instrumentation for dspy adapters ([#1057](https://github.com/RogerHYang/openinference/issues/1057)) ([66799cc](https://github.com/RogerHYang/openinference/commit/66799ccf88798bf628c316276886e70ef925b9cd))
+* Enable config propagation ([#741](https://github.com/RogerHYang/openinference/issues/741)) ([16cdc6b](https://github.com/RogerHYang/openinference/commit/16cdc6b71fb14728a3eca7db27a55b68187cb4aa))
+
+
+### Bug Fixes
+
+* **dspy:** custom LM instrumentation ([#930](https://github.com/RogerHYang/openinference/issues/930)) ([7f91317](https://github.com/RogerHYang/openinference/commit/7f91317631302cb23c4b12701be2ba0b5fa3c3f0))
+* **dspy:** dspy 2.6.0 upgrade ([#1249](https://github.com/RogerHYang/openinference/issues/1249)) ([c1ab1d8](https://github.com/RogerHYang/openinference/commit/c1ab1d86783c607c2114c92245a17ed9754ff2f4))
+* **dspy:** instrument `dspy` rather than `dspy-ai` ([#1113](https://github.com/RogerHYang/openinference/issues/1113)) ([5f6e149](https://github.com/RogerHYang/openinference/commit/5f6e149d0979a822e07f81af944c22b7530f8fed))
+* **dspy:** module resolution for custom LM ([#934](https://github.com/RogerHYang/openinference/issues/934)) ([ef809be](https://github.com/RogerHYang/openinference/commit/ef809bebf4c2a19cc932b3a828cf6137be73148b))
+* **dspy:** prevent the creation of duplicate span exception events ([#1058](https://github.com/RogerHYang/openinference/issues/1058)) ([54af1c3](https://github.com/RogerHYang/openinference/commit/54af1c393a03831fc908b51ca7d57ab269b13552))
+* **dspy:** support dspy 2.5 and above ([#1055](https://github.com/RogerHYang/openinference/issues/1055)) ([467c8dc](https://github.com/RogerHYang/openinference/commit/467c8dcf3c58f4f443332b2062cabfe7b10de16e))
+* further dspy support for non-ascii characters ([#488](https://github.com/RogerHYang/openinference/issues/488)) ([fe9d2dd](https://github.com/RogerHYang/openinference/commit/fe9d2dd453aadd6758ba3754fd4f0e68342be931))
+* improve dspy support for non-ascii characters ([#478](https://github.com/RogerHYang/openinference/issues/478)) ([344bd13](https://github.com/RogerHYang/openinference/commit/344bd135ec1069d58365f25a5437cbd546b80cf0))
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/RogerHYang/openinference/issues/1012)) ([3236d27](https://github.com/RogerHYang/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+
+
+### Documentation
+
+* TraceConfig and context attributes ([#793](https://github.com/RogerHYang/openinference/issues/793)) ([d3808c4](https://github.com/RogerHYang/openinference/commit/d3808c4bea3f6a4c72d3a7ea09b54e78072be6fd))
+
 ## [0.1.15](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-dspy-v0.1.14...python-openinference-instrumentation-dspy-v0.1.15) (2025-02-04)
 
 
