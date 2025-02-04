@@ -1,5 +1,35 @@
 # Changelog
 
+## [0.1.22](https://github.com/RogerHYang/openinference/compare/python-openinference-instrumentation-v0.1.21...python-openinference-instrumentation-v0.1.22) (2025-02-04)
+
+
+### Features
+
+* add ability to hide LLM invocation paramaters for OITracer ([#1171](https://github.com/RogerHYang/openinference/issues/1171)) ([f7e94c7](https://github.com/RogerHYang/openinference/commit/f7e94c7f658570169c564f11663fc9eeaee05f46))
+* Add TracingConfig for configuration settings in instrumentations ([#639](https://github.com/RogerHYang/openinference/issues/639)) ([fcea7f9](https://github.com/RogerHYang/openinference/commit/fcea7f99e505f104543d3a51a9b3b0f25cba8072))
+* attribute prioritization ([#906](https://github.com/RogerHYang/openinference/issues/906)) ([0add042](https://github.com/RogerHYang/openinference/commit/0add0421b5f0d9b64c579027c469513359863a68))
+* Config settings concentrated in common instrumentation package ([#673](https://github.com/RogerHYang/openinference/issues/673)) ([3e34897](https://github.com/RogerHYang/openinference/commit/3e348979e9db5a73ba7f8edac49e1c01816d89e7))
+* helper functions to convert OTEL IDs for spans and traces to strings ([#579](https://github.com/RogerHYang/openinference/issues/579)) ([dc60a92](https://github.com/RogerHYang/openinference/commit/dc60a92f8690243b5277cfba4c7e68a2056e293f))
+* id generator with separate source of randomness ([#1010](https://github.com/RogerHYang/openinference/issues/1010)) ([ac8cce1](https://github.com/RogerHYang/openinference/commit/ac8cce112341bb31a575cb1e61a55acb196fc600))
+* openinference tracer ([#1147](https://github.com/RogerHYang/openinference/issues/1147)) ([22d80ca](https://github.com/RogerHYang/openinference/commit/22d80ca066a8d29e9b9ef08ce581b4a7ad4eb08b))
+
+
+### Bug Fixes
+
+* add missing dependency opentelemetry-sdk ([#1026](https://github.com/RogerHYang/openinference/issues/1026)) ([11e6cb9](https://github.com/RogerHYang/openinference/commit/11e6cb98cf2efe73fd3b3972869d8527db67cc72))
+* ensure bazel can discover instrumentation modules in openinference.instrumentations ([#455](https://github.com/RogerHYang/openinference/issues/455)) ([38a3ad6](https://github.com/RogerHYang/openinference/commit/38a3ad6cca3a931ebbe51a57bc78c4a000dcae17))
+* Ensure string type to check URLs ([#682](https://github.com/RogerHYang/openinference/issues/682)) ([24c51ec](https://github.com/RogerHYang/openinference/commit/24c51ece2b50a36c791f9e0c72088360fe91ca5f))
+* improve handling of non-ASCII unicode characters in openinference-instrumentation ([#473](https://github.com/RogerHYang/openinference/issues/473)) ([f8236a4](https://github.com/RogerHYang/openinference/commit/f8236a49f88aaaf0ffec2f0d7a06ce42ba3814d7))
+* increase python upperbound to include 3.13 for openinference-instrumentation ([#1137](https://github.com/RogerHYang/openinference/issues/1137)) ([0c2f297](https://github.com/RogerHYang/openinference/commit/0c2f297bb479b6cd4a70c7e0b28d6578e0abc6e3))
+* mask attributes when starting span ([#892](https://github.com/RogerHYang/openinference/issues/892)) ([9b72287](https://github.com/RogerHYang/openinference/commit/9b72287401d5c424a8951e1d6a15cca14fcd05cc))
+* remove setting the global logger level ([#1001](https://github.com/RogerHYang/openinference/issues/1001)) ([5c0f83c](https://github.com/RogerHYang/openinference/commit/5c0f83c355304da289ae1c849b9d315990281184))
+* Rename base tracer and masked span ([#693](https://github.com/RogerHYang/openinference/issues/693)) ([861ea4b](https://github.com/RogerHYang/openinference/commit/861ea4ba45cf02a1d0519a7cd2c5c6ca5d74115b))
+
+
+### Documentation
+
+* TraceConfig and context attributes ([#793](https://github.com/RogerHYang/openinference/issues/793)) ([d3808c4](https://github.com/RogerHYang/openinference/commit/d3808c4bea3f6a4c72d3a7ea09b54e78072be6fd))
+
 ## [0.1.21](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-v0.1.20...python-openinference-instrumentation-v0.1.21) (2025-01-23)
 
 
