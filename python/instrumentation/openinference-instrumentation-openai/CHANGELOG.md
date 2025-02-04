@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.1.19](https://github.com/RogerHYang/openinference/compare/python-openinference-instrumentation-openai-v0.1.18...python-openinference-instrumentation-openai-v0.1.19) (2025-02-04)
+
+
+### Features
+
+* Add multimodal content arrays to llm messages ([#542](https://github.com/RogerHYang/openinference/issues/542)) ([916040d](https://github.com/RogerHYang/openinference/commit/916040d50bd867c8d9fe34638b2e8b2dfca4d22c))
+* add tool call id to openai instrumentor ([#1090](https://github.com/RogerHYang/openinference/issues/1090)) ([9bbadd2](https://github.com/RogerHYang/openinference/commit/9bbadd23a371b6adb8378bd6f5cbe1e275241804))
+* Add TraceConfig handling  ([#640](https://github.com/RogerHYang/openinference/issues/640)) ([008f956](https://github.com/RogerHYang/openinference/commit/008f956d867fc3effaa0b75019159a15f4709322))
+* Added tools attribute ([#904](https://github.com/RogerHYang/openinference/issues/904)) ([f1eb980](https://github.com/RogerHYang/openinference/commit/f1eb980a4a91d832c80252b254bf94a273c79031))
+* Move attribute censorship based on config to common instrumentation ([#679](https://github.com/RogerHYang/openinference/issues/679)) ([04f885a](https://github.com/RogerHYang/openinference/commit/04f885a5934af6fe885e7498332785da110cb500))
+* **openai:** add llm provider and system attributes ([#1082](https://github.com/RogerHYang/openinference/issues/1082)) ([232c031](https://github.com/RogerHYang/openinference/commit/232c031deea6b81a007447a37db2b0e5eb8ce613))
+
+
+### Bug Fixes
+
+* add google as provider for openai instrumentor ([#1131](https://github.com/RogerHYang/openinference/issues/1131)) ([3ef4243](https://github.com/RogerHYang/openinference/commit/3ef424304343ede04910512380ef4c0a01638fb0))
+* improve openai support for non-ascii characters ([#480](https://github.com/RogerHYang/openinference/issues/480)) ([5b9dd64](https://github.com/RogerHYang/openinference/commit/5b9dd64e4063e5d7ecf357fdba0faa70acaa1a25))
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/RogerHYang/openinference/issues/1012)) ([3236d27](https://github.com/RogerHYang/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+* **openai:** missing span when stream response is used as context manager ([#591](https://github.com/RogerHYang/openinference/issues/591)) ([ee1fd0e](https://github.com/RogerHYang/openinference/commit/ee1fd0ecfc4616c481a3b81e3e2eebf5858e5d8a))
+* remove httpx dependency ([#1093](https://github.com/RogerHYang/openinference/issues/1093)) ([41c6557](https://github.com/RogerHYang/openinference/commit/41c655708e954aa362adc7f62f1b98324fb30ce9))
+* Rename base tracer and masked span ([#693](https://github.com/RogerHYang/openinference/issues/693)) ([861ea4b](https://github.com/RogerHYang/openinference/commit/861ea4ba45cf02a1d0519a7cd2c5c6ca5d74115b))
+* set higher lower-bound for OpenInference dependency ([#739](https://github.com/RogerHYang/openinference/issues/739)) ([08f9bef](https://github.com/RogerHYang/openinference/commit/08f9bef9391856b5d4f4dbb69a2c2867fd47bc51))
+
+
+### Documentation
+
+* **openai:** simplify tool calling example ([#1069](https://github.com/RogerHYang/openinference/issues/1069)) ([67da961](https://github.com/RogerHYang/openinference/commit/67da961147ff6ac6892bd6683e4048cad35906a5))
+* TraceConfig and context attributes ([#793](https://github.com/RogerHYang/openinference/issues/793)) ([d3808c4](https://github.com/RogerHYang/openinference/commit/d3808c4bea3f6a4c72d3a7ea09b54e78072be6fd))
+* update openai readme ([#751](https://github.com/RogerHYang/openinference/issues/751)) ([10f20c2](https://github.com/RogerHYang/openinference/commit/10f20c2dd68f0ee8c90d8e43c0d71b408230dd66))
+* update openai readme ([#754](https://github.com/RogerHYang/openinference/issues/754)) ([4b8b967](https://github.com/RogerHYang/openinference/commit/4b8b96799b255d46d95a201dd7188f545c9d1228))
+
 ## [0.1.18](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-openai-v0.1.17...python-openinference-instrumentation-openai-v0.1.18) (2024-11-22)
 
 
